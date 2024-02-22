@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="alhamdulillah.png">
+    <title>Registration</title>
+</head>
+
+<style>
+    input[type=text], select{
+        width: 20%;
+        padding:8px 20px ;
+        margin: 4px 0;
+       /* display: flex; */
+        border: 1px solid rgb(211, 57, 57);
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    input[type=date], select{
+        width: 10%;
+        padding: 8px 20px;
+        margin: 4px 0;
+        display: flex;
+        border: 1px solid rgb(150, 25, 25);
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit]{
+        border-radius: 15px;
+        
+        padding: 20px;
+    }
+    
+
+    
+    .imgdiv{
+        display: flex;
+        float:right;
+        padding-right: 10%;
+        padding-top: 15%;
+        width: 500px; 
+        height:250;
+        gap: 10px;
+    }
+    
+    form{
+        border: 1px solid rgb(236, 4, 4);
+        padding-top: 5%;
+        background-color: white;
+        padding-inline-start: 15%;
+        /*box-sizing: border-box;*/
+    }
+    fieldset{
+        border: 10px solid black;
+        
+        
+    }
+</style>
+<body >
+<div class="parentdiv">  
+    <div class="imgdiv">
+         <img src="registration.gif" alt=" computer" >
+    </div> 
+        <fieldset>
+                <form action="action_page.php"">
+                    <label for="fname">Full Name :</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Nurudeen Hamzah Ayoade"><br><br>
+
+
+                            <label for="Dbirth">Date of Birth</label><br>
+                            <input type="date" id="Dbirth" name="Dbirth"><br><br>
+
+        
+                            <label for="gender">Gender :</label><br>
+                        <select id="gender" name="gender" placeholder="your gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                        </select><br><br>
+        <label for="country">Country :</label> <br>               
+        <select id="country" name="country" >
+            <option value="country">Choose your Country ...</option>
+            <option value="Algeria">Algeria</option>
+            <option value="Benin">Benin</option>
+            <option value="Cameroon">Cameroon</option>
+            <option value="Dubai">Dubai</option>
+            <option value="Egypth">Egypth</option>
+            <option value="France">France</option>
+            <option value="Ganna">Ganna</option>
+            <option value="Haiti">Haiti</option>
+            <option value="Indonesia">Indonesia</option>
+            <option value="Jurdan">Jurdan</option>
+            <option value="Koria">Koria</option>
+            <option value="libia">Libia</option>
+            <option value="Marlesia">Marlesia</option>
+            <option value="Nigeria">Nigeria</option>
+                </select><br><br>
+
+        <label for="mail">Email</label><br>
+        <input type="text" id="mail" name="mail" placeholder="Example@gmail.com"><br><br>
+        
+    <label for="pass">Password</label><br>
+    <input type="text" id="pass" name="pass" placeholder="enter your email passworn"><br><br> 
+
+    <input type="image"  src="submit.jpg" alt="submit button" width="400" height="150">
+
+    </form>
+    </fieldset>
+</div>
+</body>
+</html>
