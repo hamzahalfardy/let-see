@@ -1,4 +1,16 @@
-iframe{
+.test{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items:center;
+    scroll-padding-block: 300px;
+}
+.images{
+    align-items: flex-start;
+}
+
+
+.iframe{
     background-size: cover;
     
 }
