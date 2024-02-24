@@ -1,12 +1,23 @@
-.test{
+
+.content{
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
+        
     align-items:center;
-    scroll-padding-block: 300px;
+    
+}
+
+.header{
+    border-radius: 5px;
+    color: rgb(255, 174, 0);
+    padding-left: 15px;
+
 }
 .images{
     align-items: flex-start;
+    padding-left:15ch;
+
 }
 
 
@@ -82,8 +93,8 @@ a:active{
 }
 h3{
     font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: tomato;
+    
+    
     margin-inline-start:30px
 }
 h4{
@@ -102,7 +113,7 @@ p{
 }
 img{
     /*position: fixed;*/
-    padding-left:15ch;
+    
     width: 500px;
     height: 500px;
 }
